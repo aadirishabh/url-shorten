@@ -1,0 +1,5 @@
+CREATE TABLE UrlTable (
+  id INT AUTO_INCREMENT  PRIMARY KEY,
+  long_url VARCHAR(250) NOT NULL,
+  short_url VARCHAR(250) NOT NULL
+);
